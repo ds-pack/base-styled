@@ -1,8 +1,18 @@
-# Project Template
+# `@ds-pack/base-styled`
 
-Make sure to update this with the right documentation!
+A base React component that removes style props from `styled-system`.
 
-### Tools:
+## API:
+
+```tsx
+import Base from '@ds-pack/base-styled'
+import styled from 'styled-components'
+import { space, layout } from 'styled-system'
+
+export default styled(Base)(space, layout)
+```
+
+### Built using:
 
 - Typescript
 - Babel
