@@ -6,6 +6,9 @@
   "repository": "git@github.com:ds-pack/base-styled.git",
   "author": "Matt Hamlin <matthewjameshamlin@gmail.com>",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "babel src/ --out-dir dist/ --extensions '.ts,.tsx'",
     "test": "jest",
